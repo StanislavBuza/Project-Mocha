@@ -1,0 +1,23 @@
+{
+  "name": "mochaOne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanislavBuza/Project-Mocha.git"
+  },
+  "author": "Stanislav Buza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StanislavBuza/Project-Mocha/issues"
+  },
+  "homepage": "https://github.com/StanislavBuza/Project-Mocha#readme",
+  "dependencies": {
+    "mocha": "^7.0.0"
+  }
+}
