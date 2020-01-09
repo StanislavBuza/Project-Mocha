@@ -1,9 +1,11 @@
 const assert = require('assert');
+const {expect} = require('chai');
 const {sum, mult, isAdult, sortArray, permuteAPalindrome, isOddNumber,isEvenNumber} = require('../index.js');
 
 describe ('function sum', () => {
     it('should function sum equals 10',() => {
-        assert.equal(sum(2,7),9);
+        assert.equal(sum(2,8),10);
+        expect(sum(2,8)).eq(10);
 
     } );
 
@@ -25,12 +27,15 @@ describe ('function mult', () => {
 
 describe ('isAdult', () => {
     it('should function isAdult be true', () => {
-        assert.equal(isAdult(32), true);
+        // assert.equal(isAdult(32), true);
+        expect(isAdult(22)).to.be.true;
 
     });
 
+
     it('should function isAdult be false', () => {
-        assert.notEqual(isAdult(17), true);
+        // assert.notEqual(isAdult(17), true);
+        expect(isAdult(16)).false;
     });
 })
 
