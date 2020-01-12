@@ -1,6 +1,5 @@
 
 
-const assert = require('assert');
 const {expect} = require('chai');
 const {sum, mult, isAdult, sortArray, permuteAPalindrome, isOddNumber,isEvenNumber} = require('../index.js');
 
